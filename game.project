@@ -82,7 +82,7 @@ max_emitter_count = 0
 max_particle_count = 0
 
 [model]
-max_count = 1
+max_count = 0
 
 [mesh]
 max_count = 0

@@ -6,7 +6,7 @@ function init(self)
 	CurrentAudioUnit, CurrentFumenBuf = AcAudio.CreateUnit(src), sys.load_buffer("/Arf/2001.arf")
 	factory.create("Ar:/Pragma#1 Canvas", nil, nil, {options=true, display_losts=true})
 
-	go.set("Ar:/RenderHint#Model", "tint", IllustTint)												-- Do Demo-Specific Settings
+	go.set("Ar:/Pragma#Hints", "tint", IllustTint)													-- Do Demo-Specific Settings
 	go.set("Ar:/Demo#DemoLeft", "tint", CoverTint)
 	go.set("Ar:/Demo#DemoRight", "tint", CoverTint)
 	go.set("Ar:/Demo#DemoTop", "tint", CoverTint)
