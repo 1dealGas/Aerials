@@ -166,7 +166,7 @@ if system_name == "Android" then
 
 	-- Input Consumer
 	--
-	function fixed_update()
+	function update()
 		local pCnt, rCnt, guiPressed, isCancelled = ConsumeInput(pTable, mTable, rTable)
 
 		-- I. Pressed Dispatching

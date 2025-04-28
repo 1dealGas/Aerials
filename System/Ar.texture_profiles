@@ -16,7 +16,7 @@ path_settings {
 }
 path_settings {
   path: "/Atlas/Quad.atlas"
-  profile: "Quad"
+  profile: "Cover"
 }
 path_settings {
   path: "**"
@@ -42,17 +42,6 @@ profiles {
       format: TEXTURE_FORMAT_RGB
       compressor: "BasisU"
       compressor_preset: "BASISU_HIGHEST"
-    }
-    mipmaps: false
-  }
-}
-profiles {
-  name: "Quad"
-  platforms {
-    os: OS_ID_GENERIC
-    formats {
-      format: TEXTURE_FORMAT_RGB
-      compressor: "Uncompressed"
     }
     mipmaps: false
   }
